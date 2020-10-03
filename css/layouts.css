@@ -1,0 +1,18 @@
+#photo-gallery{
+  position: relative;
+  overflow: auto;
+}
+
+section{
+  float: left;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+}
+
+img{
+  width: auto;
+  height: 250px;
+  
+}

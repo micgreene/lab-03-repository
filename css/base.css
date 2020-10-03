@@ -1,0 +1,8 @@
+@import 'reset.css';
+@import 'layouts.css';
+@import 'modules.css';
+
+
+section {
+  font-family: 'Gentium Basic', serif;
+}
