@@ -1,10 +1,30 @@
-#photo-gallery{
-  position: relative;
-  overflow: auto;
+header{
+  text-align: center;
+  align-items: center;
+}
+
+h1 {  
+  padding: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+select{
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 section{
-  float: left;
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 3500px;
+  max-width: auto;
+}
+
+div{
+  
   height: 500px;
   width: 500px;
   align-items: center;
@@ -13,6 +33,5 @@ section{
 
 img{
   width: auto;
-  height: 250px;
-  
+  height: 250px;  
 }

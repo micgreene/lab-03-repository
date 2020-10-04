@@ -2,7 +2,27 @@
 @import 'layouts.css';
 @import 'modules.css';
 
-
-section {
+header{
   font-family: 'Gentium Basic', serif;
 }
+
+div {
+  font-family: 'Gentium Basic', serif;
+}
+
+div h2{
+  font-size: 45px;
+}
+
+div p{
+  font-size: 20px;
+}
+
+h1{
+  font-size: 50px;  
+  border: 3px solid black;
+  width: 500px; 
+}
+
+
+
