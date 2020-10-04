@@ -1,0 +1,17 @@
+/* Style the links inside the navigation bar */
+#nav-bar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#nav-bar a.active {
+  background-color: #e0875d;
+  color: white;
+}

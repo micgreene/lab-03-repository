@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Gallery of Horns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+
+  <script id="photo-template" type="x-tmpl-mustache">
+  <div class = "{{keyword}}">
+    <h2>{{title}}</h2>
+    <img src="{{image_url}}" alt="">
+    <p>{{description}}</p>
+  </div>
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <h1>The Gallery of Horns</h1>
+    <div id ="nav-bar">
+      <ul>
+        <li><a href="index.html">Page 1</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+      </ul>
+    </div>
+    <h2>Page 2</h2>
+    <select id="filters">
+      <option value="default">Filter by Keyword:</option>
+      <option value="narwhal">Narwhal</option>
+      <option value="rhino">Rhino</option>
+      <option value="unicorn">Unicorn</option>
+      <option value="unilego">Unilego</option>
+      <option value="triceratops">Triceratops</option>
+      <option value="markhor">Markhor</option>
+      <option value="mouflon">Mouflon</option>
+      <option value="addax">Addax</option>
+      <option value="chameleon">Chameleon</option>
+      <option value="lizard">Lizard</option>
+      <option value="dragon">Dragon</option>
+      <option value="jackalope">Jackalope</option>
+      <option value="horn">Horn</option>
+      <option value="Music">Music</option>
+      <option value="giraffe">Giraffe</option>
+      <option value="saiga">Saiga</option>
+    </select>
+
+    <select id="ordering">
+      <option value="default2">Order by:</option>
+      <option value="name">Name</option>
+      <option value="num-of-horns">Number of Horns</option>
+    </select>
+  </header>
+  <main>
+    <section id="photo-gallery">
+    </section>
+  </main>
+  <footer>
+    &copy; 2018 Code Fellows
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="js/pg2App.js"></script>
+</body>
+
+</html>

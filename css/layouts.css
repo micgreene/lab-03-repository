@@ -1,0 +1,66 @@
+header{
+  text-align: center;
+  align-items: center;
+}
+
+h1 {  
+  padding: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select{
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+section{
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 3500px;
+  max-width: auto;
+}
+
+div{
+  
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+}
+
+div p{
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img{
+  width: auto;
+  height: 250px;  
+}
+
+#nav-bar{  
+  height: auto;
+  width: auto;
+  margin-left :auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#nav-bar li{
+  display: inline;
+}
+
+
+
